@@ -71,7 +71,7 @@ setup(
     license="MIT",
     url="https://github.com/albumentations-team/albumentations",
     packages=find_packages(exclude=["tests"]),
-    python_requires=">=3.7",
+    python_requires=">=3.6",
     install_requires=get_install_requirements(INSTALL_REQUIRES, CHOOSE_INSTALL_REQUIRES),
     extras_require={"tests": ["pytest"], "imgaug": ["imgaug>=0.4.0"], "develop": ["pytest", "imgaug>=0.4.0"]},
     classifiers=[
