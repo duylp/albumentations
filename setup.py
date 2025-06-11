@@ -17,8 +17,8 @@ INSTALL_REQUIRES = [
 # If none of packages in first installed, install second package
 CHOOSE_INSTALL_REQUIRES = [
     (
-        ("opencv-python>=4.1.1", "opencv-contrib-python>=4.1.1", "opencv-contrib-python-headless>=4.1.1"),
-        "opencv-python-headless>=4.1.1",
+        ("opencv-python>=4.1.1", "opencv-contrib-python>=4.1.1", "opencv-python-headless>=4.1.1"),
+        "opencv-contrib-python-headless>=4.1.1",
     )
 ]
 
